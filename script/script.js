@@ -13,31 +13,29 @@ const container = document.querySelector("#main-container");
 function on() {
   img.setAttribute("src", "img/ligada.png");
 }
-
 function of() {
   img.setAttribute("src", "img/apagada.png");
 }
-
 // mudar background
 function bodyOn() {
   var bodyElement = document.body;
   bodyElement.style.backgroundColor = "#fffb00";
 }
-
 function bodyOff() {
   var bodyElement = document.body;
   bodyElement.style.backgroundColor = "#000";
 }
-
 // border black
 function bordeOn() {
   container.style.border = "4px solid black";
 }
-
 // border white
 function borderOff() {
   container.style.border = "2px solid white";
 }
+
+
+
 
 // ações
 BtnOn.addEventListener("click", () => {
