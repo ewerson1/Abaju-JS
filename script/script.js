@@ -18,11 +18,11 @@ function of() {
 }
 // mudar background
 function bodyOn() {
-  var bodyElement = document.body;
+  let bodyElement = document.body;
   bodyElement.style.backgroundColor = "#fffb00";
 }
 function bodyOff() {
-  var bodyElement = document.body;
+  let bodyElement = document.body;
   bodyElement.style.backgroundColor = "#000";
 }
 // border black
